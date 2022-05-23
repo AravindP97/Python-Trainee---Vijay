@@ -1,0 +1,727 @@
+html {
+    background-image: none;
+    background-color: #669900;
+    margin: -94px auto -20px auto;
+}
+/* html { */
+    /* background: #eee; */
+/* } */
+body {
+    margin: 30px 0 60px 0;
+    padding: 0;
+    height: 95%;
+    text-align: center;
+    font-size: small;
+    font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    background-color: #669900;
+}
+
+#container {
+    border: 0 solid #cccccc;
+}
+#container, html.embed { 
+    background-color: #FFFFFF;
+ } 
+#container {
+    border: 0 solid #cccccc;
+}
+ #container, html.embed { 
+     background-color: #FFFFFF; 
+} 
+#container {
+    margin: 0 auto 10px auto;
+    width: 640px;
+    height: 1638px;
+}
+#container {
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: rgb(0 0 0 / 20%) 0px 0px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 5px;
+}
+
+
+#logo {
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+    background-color: #dedede;
+    text-decoration: none;
+    text-indent: -9000px;
+}
+
+#logo {
+    background-image: none;
+    background-color: #99cc00;
+}
+#logo  a {
+    height: 80px;
+display: block;
+background: url('/home/mitrah179/Desktop/Beginner project/Png Folder/wflogo-padding.png') no-repeat left top;
+
+overflow: hidden;
+}
+form.wufoo{
+    margin: 20px 14px 0 14px;
+    padding: 0 0 20px 0;
+    position: relative;
+    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    letter-spacing: .01em;
+}
+#box1
+{
+    border-radius: 1px;
+    background-color: #8cdb04;
+}
+#box2
+{
+
+    border-radius: 1px;
+    background-color: white;
+    height: 1400px;
+}
+#l1
+{
+    font-size: 22px;
+    position: relative;
+    top: -14px;
+    left: -73px;
+    
+    
+}
+#l2
+{
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+
+}
+#l3
+{
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+    position: relative;
+    top: 31px;
+}
+#LoanAmount
+{
+    position: relative;
+    top: 23px;
+    margin-bottom: 10px;
+    color: #444444;
+    font-weight: bold;
+}
+#LA2
+{
+    position: relative;
+   top: 30px;
+}
+.Loan{
+   position: relative; 
+   margin-top: 19px;
+   margin-bottom:10px
+}
+.loan_select{
+    position: relative; 
+    margin-top:40px;
+    padding-bottom:5px;
+    /* margin-bottom:10px; */
+   
+}
+#Dollars
+{
+    position: relative; 
+    left: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+hr{
+border: 1px dotted #CCCCCC;
+}
+#cents
+{
+    position: relative;
+    left:115px;
+    bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.Estimated_Price
+{
+    position: relative;
+    top: 55px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+
+}
+.EstimatedPrice_Positioning
+{
+    position: relative;
+    top: 61px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+#Dollars2
+{
+    position: relative; 
+    left: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+#cents2
+{
+    position: relative;
+    left:112px;
+    bottom: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+
+}
+.LoctaionOfProperty
+{
+    position: relative;
+    top: 16px;
+    font-size: 97%;
+    color: #444444;
+    font-weight: bold;
+}
+.Street_Address
+{
+    position: relative;
+    top: 21px;
+    font-size: 87%;
+    letter-spacing: .01em;
+    font-style: inherit;
+    color: #444444;
+    
+}
+.Address_Line
+{
+    position: relative;
+    top: 21px;
+    font-size: 85%;
+    color: #444444;
+}
+.filler1
+{
+    position: relative;
+    top:21px;
+    left:5px;
+}
+.city
+{
+    position: relative;
+    top: 20px;
+    right: -1px;
+    font-size: 85%;
+    color: #444444;
+}
+.StateProvinceRegion
+{
+    position: relative;
+    top:21px;
+    left: 301px;
+    font-size: 85%;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444444;
+}
+.filler2
+{
+    position:relative;
+    top: 33px;
+    left: 1px;
+}
+.PostalZipCode
+{
+    position: relative;
+    top: 34px;
+    left: 2px;
+    font-size: 95%;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444444;
+}
+.Country
+{
+    position: relative;
+    top: 34px;
+    left: 245px;
+    font-size: 92%;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444444;
+}
+.CountryOption
+{
+    position: relative;
+    top: 34px;
+    left: 6px;
+}
+.DownPaymentPercentage
+{
+    position: relative;
+    top: 96px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+.CurrentMortgageCompany
+{
+    position: relative;
+    top: 20px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+.WouldyoulikeaReferraltoaRealEstateAgent
+{
+    position: relative;
+    top: 18px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+.Age{
+    position: relative;
+    top: 32px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+.Occupation
+{
+    position: relative;
+    top: 41px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+.Howlonghaveyoubeenatyourcurrentjob
+{
+    position: relative;
+    top:59px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+.HouseholdIncome
+{
+    position: relative;
+    top: 104px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+
+}
+.HouseholdIncome_Positioning
+{
+    position: relative;
+    top: 108px;
+    left: -8px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+.Pleasedescribeyourcreditrating
+{
+    position: relative;
+    top :120px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+.ContactInformation
+{
+    position: relative;
+    top :125px;
+    font-size: 121%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 547;
+}
+.Name{
+    position: relative;
+    top :125px;
+    font-size: 95%;
+}
+.title
+{
+    position: relative;
+    top :37px;
+    font-size: 95%;
+    right: 2px;
+    font-weight: 100;
+}
+.filler3
+{
+    position: relative;
+    top :41px;
+    right: 34px;
+    height: 22px;
+}
+.first
+{
+    position: relative;
+    top :37px;
+    right: 53px;
+    font-size: 95%;
+    height: 20px;
+    font-weight: 100;
+}
+.filler4
+{
+    position: relative;
+    top :19px;
+    right: 7px;
+    height: 22px;
+
+}
+.last
+{
+    position: relative;
+    top: 37px;
+    right: 96px;
+    font-weight: 100;
+}
+.filler5
+{
+    position: relative; 
+    top: 19px;
+    right: 33px;
+
+}
+.filler6
+{
+    position: relative;
+    top: 19px;
+    right:57px;
+}
+.suffix
+{
+    position: relative;
+    top: 37px;
+    right: 88px;
+    font-weight: 100;
+    
+}
+.Address
+{
+    position: relative;
+    top: 183px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: bold;
+}
+.Street_Address2
+{
+    position: relative;
+    top: 198px;
+    font-size: 85%;
+    color: #444444;
+}
+.Address_Line2
+{
+    position: relative;
+    top: 209px;
+    font-size: 85%;
+    color: #444444;
+}
+.filler7
+{
+    position: relative;
+    top: 209px;
+    left: 10px;
+}
+.city2
+{
+    position: relative;
+    top: 218px;
+    right:-3px;
+    font-size: 95%;
+    color: #444444;
+}
+.StateProvinceRegion2
+{
+    position: relative;
+    top: 211px;
+    left: 301px;
+    font-size: 93%;
+    color: #444444;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.filler8
+{
+    position:relative;
+    top: 225px;
+    left: 1px;
+}
+.PostalZipCode2
+{
+    position: relative;
+    top: 226px;
+    right: -322px;
+    font-size: 95%;
+    color: #444444;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Country2
+{
+    position: relative;
+    top: 226px;
+    left: -83px;
+    font-size: 92%;
+    color: #444444;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.CountryOption2
+{
+    position: relative;
+    top: 226px;
+    left: 12px;
+}
+.image2
+{
+    position: relative;
+    height: 36px;
+    width: 70px;
+    top: 1565px;
+    bottom: 20px;
+    left:260px;
+
+}
+.PrimaryPhone
+{
+    position: relative;
+    top:228px;
+}
+.hash
+{
+    position: relative;
+    bottom: 13px;
+    left: 33px;
+    font-weight: 100;
+}
+.doublehash
+{
+    position: relative;
+    bottom: 26px;
+    left: 67px;
+    font-weight: 100;
+}
+.AlternatePhone
+{
+    position: relative;
+    top:212px;
+}
+.hash2
+{
+    position: relative;
+    bottom: 13px;
+    left: 33px;
+    font-weight: 100;
+}
+.doublehash2
+{
+    position: relative;
+    bottom: 26px;
+    left: 67px;
+    font-weight: 100
+}
+.Email
+{
+    position: relative;
+    top: 206px;
+}
+.Button
+{
+    position:relative;
+    top:226px;
+}
+.House
+{
+    position:relative;
+    top:5px;
+}
+.LocationOfProperty2
+{
+    position:relative;
+    top: 42px;
+}
+.BodySpacing
+{
+    position: relative;
+    top: -26px;
+}
+.font-size1
+{
+    position: relative;
+    top:-18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.font-size2
+{
+    position: relative;
+    top: -14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.font-size3
+{
+    position: relative;
+    top:-1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+.font-size4
+{
+    position: relative;
+    top: 16px;
+
+}
+.font-size5
+{
+    position: relative;
+    top:-15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.font-size6
+{
+    position: relative;
+    top: -11px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+.font-size7
+{
+    position: relative;
+    top:-8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.PoweredBy
+{
+    position: relative;
+    top:1703px;
+    left: 71px;
+    font-size: 10px;
+    color: #606060;
+}
+.SeeHowEasy
+{
+    position: relative;
+    top:1760px;
+    left: -11px;
+    font-size: 10px;
+    color: #606060;
+
+}
+.CreateAForm
+{
+    color: #0000CE;
+}
+.image3
+{
+    position: relative;
+    top: 97px;
+    left: -240px;
+}
+.hashed
+{
+    position: relative;
+    left:4px;
+    font-weight: 100;
+}
+.hashed2
+{
+    position: relative;
+    left:3px;
+    font-weight: 100;
+}
+.Positioning1
+{
+    position: relative;
+    top: -23px;   
+}
+.Positioning2
+{
+    position: relative;
+    top:-34px;
+}
+.Positioning3
+{
+    position: relative;
+    top: -40px;
+}
+.Positioning4
+{
+    position: relative;
+    top: -10px;
+}
+.Positioning5
+{
+    position: relative;
+    top: -20px;
+}
+#coloryellow:focus-within
+{
+    background-color: #FFF7C0;
+    color: black;
+}
+.font-size8
+{
+    position: relative;
+    top: -4px;
+}
+.font-size9
+{
+    position: relative;
+    top: -4px;
+}
+.font-size10
+{
+    position: relative;
+    top: -5px;
+}
+.font-size11
+{
+    position: relative;
+    top: -4px;
+}
+.font-size12
+{
+    position: relative;
+    top: -3px;
+}
+.font-size13
+{
+    position: relative;
+    top: -3px;
+}
+.font-size14
+{
+    position: relative;
+    top: -3px;
+}
+.font-size15
+{
+    position: relative;
+    top: -3px;
+}
+.font-size16
+{
+    position: relative;
+    top: -3px;
+}
